@@ -8,10 +8,12 @@ navbar:
       icon: fa-home
       href: index.html
     - text: "About"
-      icon: fa-info
+      icon: fa-bell
       href: about.html
 output:
   html_document:
     theme: flatly
     highlight: textmate
-     
+    include:
+      after_body: footer.html
+    css: styles.css 
